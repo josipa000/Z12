@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.top-bar,
+.top-bar ul {
+  background-color: rgb(255, 193, 203);
+}
+
+body {
+  background-color: lightgray;
+  color: black;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.orbit-slide {
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: rgb(243, 156, 170);
+  border-radius: 10px;
+}
+
+.thumbnail { margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    display: block;
+
+}
+
+.pravokutnik {background-color: rgb(255, 193, 203);
+    margin-top: 24px;
+    padding: 16px;
+    text-align: center;
+
+}
+
+.polje {margin-top: 35px;
+
+}
+
+#slikazadnjastr { margin-top: 30px;
+    width: 400px;
+
+}

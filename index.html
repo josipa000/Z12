@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moje mrežno mjesto</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div
+      class="title-bar"
+      data-responsive-toggle="example-menu"
+      data-hide-for="medium"
+    >
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title">Menu</div>
+    </div>
+
+    <div class="top-bar" id="example-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Menu</li>
+          <li><a href="#0">Početna</a></li>
+          <li class="has-submenu">
+            <a href="#0">O meni</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="kontakti.html">Kontakt</a></li>
+              <li><a href="vjestineinteresi.html">Vještine/iskustva</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1 id="naslovpocetna">Bok, moje ime je Josipa Galić!</h1>
+        </div>
+      </div>
+      
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <img class="thumbnail" src="slike/j.jpg" alt="Photo of me.">
+        </div>
+      </div>
+
+
+      <div class="grid-x grid-padding-x">
+        <div class="cell">
+          <div class="orbit" role="region" aria-label="O meni nešto" data-orbit>
+            <ul class="orbit-container">
+              <button class="orbit-previous" aria-label="previous">
+                <span class="show-for-sr">Prethodni slajd</span>&#9664;
+              </button>
+              <button class="orbit-next" aria-label="next">
+                <span class="show-for-sr">Slijedeći slajd</span>&#9654;
+              </button>
+              <li class="is-active orbit-slide">
+                <div class="docs-example-orbit-slide">
+                  <p>
+                    <i> Moje ime je Josipa Galić. Dolazim iz Slavonskog Šamca. Rođena sam 08.06.2000. u Slavonskom Brodu. <br>
+                    Studiram Informacijske znanosti na <a target="_blank" href="https://www.ffos.unios.hr/">Filozofskom fakultetu u Osijeku.</a> <br>
+                  Volim čitati, pisati i gledati filmove. </i>
+                  </p>
+                </div>
+              </li>
+              <li class="orbit-slide">
+                <div class="docs-example-orbit-slide">
+                  <p>
+                    <i> Moja želja je baviti se medijima i odnosima s javnošću. <br>
+                    Dobrovoljno pišem članke za portal <a target="_blank" href="https://mimladi.hr/">Mimladi.hr</a> <br>
+                  <a target="_blank" href="https://mimladi.hr/author/josipa-galic/">Ovdje</a> možete pronaći moje članke! </i>
+                  </p>
+                </div>
+              </li>
+              <li class="orbit-slide">
+                <div class="docs-example-orbit-slide">
+                  <p>
+                   <i> Iako postoji velik broj pisaca kojima se iznimno divim, moji omiljeni su: Kristin Hannah, Nora Roberts i Paulo Coelho. <bR>
+                  Volim i poeziju, osobito onu u prozi.  </i>
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <nav class="orbit-bullets">
+              <button class="is-active" data-slide="0">
+                <span class="show-for-sr">First slide details.</span>
+                <span class="show-for-sr" data-slide-active-label
+                  >Current Slide</span
+                >
+              </button>
+              <button data-slide="1">
+                <span class="show-for-sr">Second slide details.</span>
+              </button>
+              <button data-slide="2">
+                <span class="show-for-sr">Third slide details.</span>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
